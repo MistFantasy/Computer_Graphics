@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Color_Model_Dialog</class>
+ <widget class="QDialog" name="Color_Model_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>676</width>
+    <height>524</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="3" colspan="3">
+      <widget class="QGraphicsView" name="graphicsView"/>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="Color_Label">
+       <property name="text">
+        <string>Color Model:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QCheckBox" name="rgbCheckBox">
+       <property name="text">
+        <string>RGB</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QCheckBox" name="cmykCheckBox">
+       <property name="text">
+        <string>CMYK</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLabel" name="Color_Label_3">
+       <property name="text">
+        <string>R:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QSlider" name="redSlider">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QSpinBox" name="redSpinBox">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QLabel" name="Color_Label_4">
+       <property name="text">
+        <string>G:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QSlider" name="greenSlider_2">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="QSpinBox" name="greenSpinBox_2">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLabel" name="Color_Label_5">
+       <property name="text">
+        <string>B:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QSlider" name="blueSlider_3">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <widget class="QSpinBox" name="blueSpinBox_3">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QLabel" name="Color_Label_6">
+       <property name="text">
+        <string>C:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QSlider" name="cyanSlider_4">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="5">
+      <widget class="QSpinBox" name="cyanSpinBox_4">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QLabel" name="Color_Label_7">
+       <property name="text">
+        <string>M:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QSlider" name="magentaSlider_5">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="5">
+      <widget class="QSpinBox" name="magentaSpinBox_5">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="3" rowspan="2">
+      <widget class="QLabel" name="Color_Label_8">
+       <property name="text">
+        <string>Y:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="4" rowspan="2">
+      <widget class="QSlider" name="yellowSlider_6">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="5">
+      <widget class="QSpinBox" name="yellowSpinBox_6">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="5" rowspan="2">
+      <widget class="QSpinBox" name="blackSpinBox_7">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+       <property name="value">
+        <number>255</number>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="3">
+      <widget class="QLabel" name="Color_Label_9">
+       <property name="text">
+        <string>K:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="4">
+      <widget class="QSlider" name="blackSlider_7">
+       <property name="maximum">
+        <number>255</number>
+       </property>
+       <property name="value">
+        <number>255</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="Yellow_Label">
+       <property name="text">
+        <string>Yellow Brightness:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QSlider" name="BrightnessSlider">
+       <property name="minimum">
+        <number>-255</number>
+       </property>
+       <property name="maximum">
+        <number>255</number>
+       </property>
+       <property name="value">
+        <number>0</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QLabel" name="Color_Label_2">
+       <property name="text">
+        <string>Color Model:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QCheckBox" name="rgbCheckBox_2">
+       <property name="text">
+        <string>RGB</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QCheckBox" name="cmykCheckBox_2">
+       <property name="text">
+        <string>CMYK</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QPushButton" name="saveButton">
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="1">
+      <widget class="QPushButton" name="saveAsButton">
+       <property name="text">
+        <string>Save As</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="2">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" rowspan="10" colspan="3">
+      <widget class="QGraphicsView" name="graphicsView_2"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
